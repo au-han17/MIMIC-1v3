@@ -16,14 +16,14 @@ Official repository and dataset curation artifacts for the **DICTA 2025 Oral Pre
   <img src="assets/paradigm.png" alt="Clinical Paradigm Overview" width="95%"/>
 </p>
 
-> **Figure Caption:** Comparison of real-world radiology workflow **(a)**, two main paradigms in previous works **(b-1 & b-2)**, and our proposed approach **(c)**.  
+> **Dataflow Overview:** Comparison of real-world radiology workflow **(a)**, two main paradigms in previous works **(b-1 & b-2)**, and our proposed approach **(c)**.  
 > In **(a)**, the clinical question is highlighted in red. Findings closely related to the indication are highlighted in brown. The impression directly addresses the clinical question (highlighted in blue). Our paradigm takes imaging data and the indication as inputs, progressively generating the findings and the impression.
 
 ---
 
 ## ⚡ Quick Start
 
-This project leans towards **Knowledge Discovery and Verification** in automated medical report generation. 
+This project leans towards **Knowledge Discovery and Verification** in automated Radiology Report Generation (RRG). 
 
 * **Codebase Foundation:** Our implementation is built upon [R2GenGPT](https://github.com/wang-zhanyu/R2GenGPT.git).
 * **Code Release:** Model training and evaluation code will be released soon. Stay tuned!
@@ -110,7 +110,7 @@ Creation of **MIMIC-CXR-JPG-Ext-1v3** involved three primary preprocessing pipel
 
 1. **View Selection:** Frontal projections (AP/PA) represent ~64.5% of MIMIC-CXR images. To ensure standard spatial consistency, we filtered multi-view studies to retain exactly **one frontal-view image per report pair**.
 2. **Expanding Abbreviations & Acronyms:** Standardized medical abbreviations sourced from [Radiopaedia](https://radiopaedia.org/) were expanded across all indication sections to maximize semantic clarity.
-3. **Report Parsing & Cleaning:** Extracted structured sections using MIMIC-CXR official tools, combined with manual auditing of ~20,000 reports to isolate 536 misassigned or administrative phrases. Reports missing all three core sections were discarded.
+3. **Report Parsing & Cleaning:** Extracted structured sections using [MIMIC-CXR official parsing code](https://github.com/MIT-LCP/mimic-cxr.git), combined with manual auditing of ~20,000 reports to isolate 536 misassigned or administrative phrases. Reports missing all three core sections were discarded.
 
 ---
 
