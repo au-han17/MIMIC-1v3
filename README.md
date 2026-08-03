@@ -1,7 +1,6 @@
 <div align="center">
 
-# 🩺 Filling in the Missing Piece
-### Advancing Automated Radiology Report Generation with Clinical Insights
+## 🩺 Filling in the Missing Piece: Advancing Automated Radiology Report Generation with Clinical Insights
 
 [![Conference](https://img.shields.io/badge/DICTA-2025%20Oral-red.svg)](https://dicta2025.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-MIMIC--CXR--JPG--Ext--1v3-blue.svg)](https://physionet.org/content/mimic-cxr-jpg/2.1.0/)
