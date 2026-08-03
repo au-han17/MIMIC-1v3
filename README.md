@@ -3,11 +3,11 @@
 [![Conference](https://img.shields.io/badge/DICTA-2025%20Oral-red.svg)](https://dicta2025.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-MIMIC--CXR--JPG--Ext--1v3-blue.svg)](https://physionet.org/content/mimic-cxr-jpg/2.1.0/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue.svg)](./assets/dicta_mimic_1v3.pdf)
 
 Official repository and dataset curation artifacts for the **DICTA 2025 Oral Presentation**:  
 **"Filling in the Missing Piece: Advancing Automated Radiology Report Generation with Clinical Insights"**  
 *Chaohan Wang, Qi Chen, Yutong Xie, Qi Wu*
-[📄 Read the Full Paper (PDF)](./assets/dicta_mimic_1v3.pdf)
 ---
 
 ## 🔍 Overview
